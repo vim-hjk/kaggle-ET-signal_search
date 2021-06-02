@@ -36,8 +36,8 @@ ______config
 
 
 ```
-
-### 💡 *Getting Start*
+---
+## *Getting Start*
 
 ### train
 `python train.py --config your_config_name`
