@@ -20,14 +20,14 @@
 ### 📑 *code*
 ```
 ______config
-|      |____config.yml ### train config
+|      |____config.yml       ### train config
 |      |____eval_config.yml  ### evaluation config
 |
 |______src
-|      |____dataset.py ### dataset
-|      |____model.py  ### cnn model
-|      |____train.py  ### train, validation module
-|      |____utils.py  ### utils
+|      |____dataset.py       ### dataset
+|      |____model.py         ### cnn model
+|      |____train.py         ### train, validation module
+|      |____utils.py         ### utils
 |
 |
 |____main.py  ### run
