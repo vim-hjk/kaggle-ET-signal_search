@@ -39,8 +39,8 @@ ______config
 ---
 ## *Getting Start*
 
-### train
+### Train
 `python train.py --config your_config_name`
-### evaluate
+### Evaluate
 `python inference.py --config your_config_name`
 
