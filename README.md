@@ -27,7 +27,7 @@ ______config
 |      |____dataset.py ### dataset
 |      |____model.py  ### cnn model
 |      |____train.py  ### train, validation module
-|      |____utils.py   ### utils
+|      |____utils.py  ### utils
 |
 |
 |____main.py  ### run
