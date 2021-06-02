@@ -1,0 +1,55 @@
+base:
+  seed: 77
+  model_arc: 'xception'
+  image_size: 256
+  num_classes: 1
+  output_dir: './checkpoints/'
+  use_kfold: True
+  train_args:
+    num_epochs: 5
+    num_fold: 4
+    batch_size: 16
+    max_lr: 0.0001
+    min_lr: 0.000001
+    cycle: 1
+    gamma: 0.5
+    weight_decay: 0.000001
+    log_intervals: 100
+
+
+swin:
+  seed: 77
+  model_arc: 'swin_small_patch4_window7_224'
+  image_size: 224
+  num_classes: 1
+  output_dir: './checkpoints/'
+  use_kfold: False
+  train_args:
+    num_epochs: 3
+    num_fold: 0
+    batch_size: 16
+    max_lr: 0.0001
+    min_lr: 0.000001
+    cycle: 3
+    gamma: 0.5
+    weight_decay: 0.0
+    log_intervals: 100
+
+
+b0:
+  seed: 77
+  model_arc: 'efficientnet_b0'
+  image_size: 384
+  num_classes: 1
+  output_dir: './checkpoints/'
+  use_kfold: True
+  train_args:
+    num_epochs: 1
+    num_fold: 5
+    batch_size: 16
+    max_lr: 0.0001
+    min_lr: 0.000001
+    cycle: 3
+    gamma: 0.5
+    weight_decay: 0.0
+    log_intervals: 100
