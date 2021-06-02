@@ -38,9 +38,9 @@ ______config
 ```
 
 ### 💡 *Getting Start*
-```
-#train
-~train.py --config your_config_name
-#test
-~inference.py --config your_config_name
-```
+
+### train
+`python train.py --config your_config_name`
+### evaluate
+`python inference.py --config your_config_name`
+
