@@ -1,7 +1,7 @@
-## 👽[Kaggle]E.T. Signal Search
+## 👽[Kaggle] E.T. Signal Search
 
 ##### 🚩 Find extraterrestrial signals in data from deep space
-##### 📆 2021.05.20~2021.08.01
+##### 📆 2021.05.20 ~ 2021.08.01
 ---
 ![ET](https://user-images.githubusercontent.com/65913073/120472505-ef4fb100-c3e0-11eb-9155-b412f43488a9.png)
 
